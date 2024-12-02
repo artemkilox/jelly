@@ -28,7 +28,7 @@ const BeanPage = () => {
 
   return (
     <div>
-      <h1>Welcome BEan</h1>
+      <h1>Welcome Bean</h1>
       {beanData && (
         <div style={stylesObj} className={style.back}>
           <img src={beanData.imageUrl} alt="#" />
